@@ -1,15 +1,27 @@
-/build/
-/dist/
-/.idea/
-nbproject/private/
-/webrev
-/.src-rev
-/.jib/
+# sensitive environment information
+.env
+data.pickle
+
+# build and distribution files that are auto-generated
+build/
+dist/
+
+# notes to self
+uploadnotes.txt
+
+# testing
+tests/app_tests.py
+
+# generated app info
+.vscode/
 .DS_Store
-.metadata/
-.recommenders/
-test/nashorn/script/external
-test/nashorn/lib
-NashornProfile.txt
-**/JTreport/**
-**/JTwork/**
+.pypirc
+.idea/*
+.cache/v/cache/
+*.egg-info/
+*.egg
+*.py[cod]
+__pycache__/
+*.so
+*~
+[.]venv
